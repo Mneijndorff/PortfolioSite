@@ -1,0 +1,316 @@
+body{
+    background: url("Images/fullBackground.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+
+html, body {
+margin:0;
+padding:0;
+}
+
+
+@media(min-height: 34.4rem){
+	body.font-size: 20%;
+}
+
+a{
+	color: 		white;
+}
+header{
+	text-align: center;
+	font-size: 300%;
+	color: white;
+}
+h1{
+	position: center;
+	text-align: center;
+	font-size: 100%;
+	color: white;
+}
+
+.Head1{
+	background-image: url("Images/Ik.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.Name-Home{
+	color: Black;
+	font-size: 2.5rem;
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.Name-Home span{
+	font-size: 2.5rem;
+	display: block;
+}
+
+.About{
+	float: left;
+	width: 50%;
+	height: 50vh;
+	position: relative;
+}
+.About2{
+	background-image: url("Images/Black2.png");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 40vh;
+	position: relative;
+}
+.About-Text{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.Title-About{
+margin: 0;
+font-size: 2.5rem;
+font-weight: 700;
+}
+
+.About-Text p{
+	color: white;
+	font-size: 100%;
+	text-align: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Skills{
+	background: url("Images/Skills.jpg");
+	float: right;
+	width: 50%; 	
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.Skills-Text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 90%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.Title-Skills{
+	margin: 0;
+	font-size: 2.5rem;
+}
+
+.Skills-Text p{
+	text-align: center;
+	color: white;
+	display: underline;
+	font-size: 150%;
+}
+
+.Projects{
+		width: 100%; 	
+	height: 50vh;
+	position: relative;
+}
+
+.Projects-Img{
+	height: 75vh;
+	width: 100%;
+	display: inline;
+}
+
+.Title-Projects{
+		margin: 0;
+	font-size: 2.5rem;
+}
+
+.planetRunner-img{
+	width: 20%;
+	margin-left: 10%;
+	display: inline;
+}
+
+.Images{
+	display: inline;
+}
+
+.planetRunner-img p{
+	display: block;
+}
+
+.Top-Background{
+	
+	background: url("Images/planetBack.png");
+	width: 100%; 	
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.Do{
+	background: url(Images/Black.jpg);
+	width:100%;
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.Title-Do{
+		margin: 0;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.I-Do-Text{
+		position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.I-Do-Text p{
+	text-align: center;
+	color: white;
+	display: underline;
+	font-size: 150%;
+	width: 70%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.PowerUpsGifs{
+	display: inline;
+}
+
+.Margin{
+	Margin-bottom: 10%;
+}
+
+
+.Gifs{	
+	background: url(Images/Black.jpg);
+	width:100%;
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	color: white; 	
+}
+
+.Title-PowerUps{
+			margin: 0;
+	font-size: 2.5rem;
+	text-align: center;
+	margin-bottom:2%;
+}
+
+.Gifs img{
+	width: 25%;
+}
+
+.p1{
+	width: 25%;
+}
+
+.p2{
+	margin-left:12%;
+	width: 25%;
+}
+
+.p3{
+	margin-left: 12%;
+	width: 25%;
+}
+
+.powerups p{
+	display: inline-block;
+}
+
+.center{
+	margin-left: 12%;
+}
+
+.ScriptsLayout{
+	background: url(Images/Black2.png);
+	width:100%;
+	height: 70vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	color: white; 
+}
+.center2{
+	margin-left: 17%;
+}
+
+.AboutAndSkills{
+	background-color: rgb(167, 169, 171);
+	width: 100%;
+	display: inline-block;
+}
+		
+.vl {
+    border-left: 6px solid black;
+    height: 375px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 101,5%;
+}
+
+.Do2{
+	background: url(Images/Black2.png);
+	width:100%;
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.Video{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.menu{
+	text-align: right;
+	width: 100%;
+	height: 5vh;
+	margin-top: -1%;
+	font-size: 120%;
+}
+ul.Hoofdmenu li{
+	display: inline;
+	color: white;
+	margin-right: 1%;\
+}
+
+.BlankitBackground{	
+	background: url("Images/blanket.png");
+	width: 100%; 	
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	
+}
