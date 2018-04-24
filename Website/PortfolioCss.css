@@ -92,6 +92,21 @@ font-weight: 700;
 	margin-right: auto;
 }
 
+.CV{
+	position: absolute;
+	font-size: 200%;
+	text-align: center;
+	width: 10%;
+	margin-left: 25%;
+	top: 60%;
+	margin-right: 50%;
+	border-style: solid;
+	border-color: black;
+}
+
+.CV a{
+	color: black;
+}
 .Skills{
 	background: url("Images/Skills.jpg");
 	float: right;
@@ -179,6 +194,13 @@ font-weight: 700;
 	text-align: center;
 }
 
+.Title-Do-Pause{
+	top: 0;
+		margin-bottom: 10%;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
 .I-Do-Text{
 		position: absolute;
 	top: 50%;
@@ -254,6 +276,16 @@ font-weight: 700;
 	background: url(Images/Black2.png);
 	width:100%;
 	height: 70vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	color: white; 
+}
+
+.ScriptsLayout2{
+	background: url(Images/Black2.png);
+	width:100%;
+	height: 100vh;
 	background-size: cover;
 	background-position: center;
 	position: relative;
