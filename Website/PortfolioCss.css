@@ -171,8 +171,16 @@ font-weight: 700;
 }
 
 .Top-Background{
-	
 	background: url("Images/planetBack.png");
+	width: 100%; 	
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.HideBackground{
+	background: url("Images/HideAndSeek.jpeg");
 	width: 100%; 	
 	height: 100vh;
 	background-size: cover;
@@ -310,6 +318,37 @@ font-weight: 700;
     top: 101,5%;
 }
 
+.Project1 {
+	background: url("Images/planetBack.png");
+	float: left;
+	width: 50%; 	
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.Project2 {
+	background: url("Images/blanket.png");
+	float: left;
+	width: 50%; 	
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.Project3{
+	background: url("Images/HideAndSeek.jpeg");
+	float: left;
+	width: 50%; 	
+	height: 50vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	border: double;
+	border-color: white;
+}
 .Do2{
 	background: url(Images/Black2.png);
 	width:100%;
@@ -318,6 +357,7 @@ font-weight: 700;
 	background-position: center;
 	position: relative;
 }
+
 .Video{
 	display: block;
     margin-left: auto;
